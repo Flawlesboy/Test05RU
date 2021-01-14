@@ -1,0 +1,12 @@
+//
+//  IRequest.swift
+//  Test05RU
+//
+//  Created by Загид Гусейнов on 14.01.2021.
+//
+
+import Foundation
+
+protocol IRequest {
+    var urlRequest: URLRequest? { get }
+}
