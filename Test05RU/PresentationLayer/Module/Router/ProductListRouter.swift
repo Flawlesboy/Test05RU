@@ -8,9 +8,7 @@
 import Foundation
 
 class ProductListRouter {
-    
 }
 
-extension ProductListRouter: ProductListRouterInput {
-    
+extension ProductListRouter: ProductListRouterInput {    
 }

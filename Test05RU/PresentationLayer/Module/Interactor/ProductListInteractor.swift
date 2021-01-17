@@ -13,7 +13,6 @@ class ProductListInteractor {
 }
 
 extension ProductListInteractor: ProductListInteractorInput {
-    
     func loadProduct() {
         productService.loadProduct { [weak self] (result: Result<ProductsModel>) in
             switch result {
